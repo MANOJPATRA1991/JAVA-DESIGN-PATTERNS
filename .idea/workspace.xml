@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80e54970-77b0-4234-94b3-d42442cd3773" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/DIP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patterns/Builder/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID_Principles/SOLID_Principles.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIP.java" beforeDir="false" afterPath="$PROJECT_DIR$/DIP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA DESIGN PATTERNS UDEMY.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JAVA DESIGN PATTERNS UDEMY.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA DESIGN PATTERNS UDEMY/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA DESIGN PATTERNS UDEMY/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA DESIGN PATTERNS UDEMY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA DESIGN PATTERNS UDEMY/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA DESIGN PATTERNS UDEMY/Demo3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA DESIGN PATTERNS UDEMY/Demo3.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,38 +24,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ISP.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ISP.java">
+      <file leaf-file-name="Builder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Patterns/Builder/Builder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="89" column="20" lean-forward="true" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
-              <folding>
-                <element signature="e#1663#1664#0" expanded="true" />
-                <element signature="e#1685#1686#0" expanded="true" />
-                <element signature="e#1745#1746#0" expanded="true" />
-                <element signature="e#1775#1776#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DIP.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DIP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="87" column="33" lean-forward="true" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="33" />
+            <state relative-caret-position="309">
+              <caret line="120" column="3" lean-forward="true" selection-start-line="120" selection-start-column="3" selection-end-line="120" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#630#631#0" expanded="true" />
-                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#799#800#0" expanded="true" />
+                <element signature="e#845#846#0" expanded="true" />
+                <element signature="e#1983#1984#0" expanded="true" />
+                <element signature="e#2029#2030#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tri</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,15 +55,18 @@
       <list>
         <option value="$PROJECT_DIR$/src.com.activemesa.solid.srp.SRP.java" />
         <option value="$PROJECT_DIR$/OCP.java" />
-        <option value="$PROJECT_DIR$/LSP.java" />
         <option value="$PROJECT_DIR$/ISP.java" />
+        <option value="$PROJECT_DIR$/LSP.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/DIP.java" />
+        <option value="$PROJECT_DIR$/Patterns/Builder/Builder.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="933" />
-    <option name="width" value="994" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -84,13 +86,23 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/javatuples-1.2.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Documents\JAVA DESIGN PATTERNS UDEMY" />
+      <recent name="C:\Users\Admin\Documents\JAVA DESIGN PATTERNS UDEMY\SOLID_Principles" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -104,7 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo3">
+  <component name="RunManager" selected="Application.DemoBuilder">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo" />
       <module name="JAVA DESIGN PATTERNS UDEMY" />
@@ -119,6 +131,22 @@
       <option name="MAIN_CLASS_NAME" value="Demo3" />
       <module name="JAVA DESIGN PATTERNS UDEMY" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Demo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo4" />
+      <module name="JAVA DESIGN PATTERNS UDEMY" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="DemoBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Patterns.Builder.DemoBuilder" />
+      <module name="JAVA DESIGN PATTERNS UDEMY" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Patterns.Builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -165,11 +193,15 @@
       <item itemvalue="Application.Demo" />
       <item itemvalue="Application.Demo2" />
       <item itemvalue="Application.Demo3" />
+      <item itemvalue="Application.DemoBuilder" />
+      <item itemvalue="Application.Demo4" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo3" />
+        <item itemvalue="Application.DemoBuilder" />
+        <item itemvalue="Application.Demo4" />
         <item itemvalue="Application.Demo2" />
+        <item itemvalue="Application.Demo3" />
         <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
@@ -188,23 +220,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="747" y="0" width="795" height="830" extended-state="0" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32918397" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32905984" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3314121" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41930836" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3299712" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.43162394" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.4489796" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.42024964" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -219,10 +251,50 @@
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Patterns/Builder/Builder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#1983#1984#0" expanded="true" />
+            <element signature="e#2029#2030#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ISP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2047">
+          <caret line="89" column="20" lean-forward="true" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+          <folding>
+            <element signature="e#1663#1664#0" expanded="true" />
+            <element signature="e#1695#1696#0" expanded="true" />
+            <element signature="e#1745#1746#0" expanded="true" />
+            <element signature="e#1776#1777#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DIP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="65" lean-forward="true" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/OCP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2185">
@@ -240,14 +312,24 @@
         <state relative-caret-position="1518">
           <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
           <folding>
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
             <element signature="e#695#696#0" expanded="true" />
             <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#944#945#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
             <element signature="e#1493#1494#0" expanded="true" />
-            <element signature="e#1530#1531#0" expanded="true" />
+            <element signature="e#1544#1545#0" expanded="true" />
             <element signature="e#1595#1596#0" expanded="true" />
-            <element signature="e#1632#1633#0" expanded="true" />
+            <element signature="e#1643#1644#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -269,14 +351,24 @@
         <state relative-caret-position="713">
           <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
           <folding>
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
             <element signature="e#695#696#0" expanded="true" />
             <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#944#945#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
             <element signature="e#1493#1494#0" expanded="true" />
-            <element signature="e#1530#1531#0" expanded="true" />
+            <element signature="e#1544#1545#0" expanded="true" />
             <element signature="e#1595#1596#0" expanded="true" />
-            <element signature="e#1632#1633#0" expanded="true" />
+            <element signature="e#1643#1644#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -322,46 +414,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LSP.java">
+    <entry file="file://$PROJECT_DIR$/ISP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1943">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="148">
+          <caret line="89" column="20" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
           <folding>
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#944#945#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-            <element signature="e#1493#1494#0" expanded="true" />
-            <element signature="e#1530#1531#0" expanded="true" />
-            <element signature="e#1595#1596#0" expanded="true" />
-            <element signature="e#1632#1633#0" expanded="true" />
+            <element signature="e#1663#1664#0" expanded="true" />
+            <element signature="e#1695#1696#0" expanded="true" />
+            <element signature="e#1745#1746#0" expanded="true" />
+            <element signature="e#1776#1777#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ISP.java">
+    <entry file="file://$PROJECT_DIR$/SOLID_Principles/src/DIP.java" />
+    <entry file="file://$PROJECT_DIR$/SOLID_Principles/src/ISP.java" />
+    <entry file="file://$PROJECT_DIR$/SOLID Principles/ISP.java" />
+    <entry file="file://$PROJECT_DIR$/SOLID Principles/DIP.java" />
+    <entry file="file://$PROJECT_DIR$/SOLID Principles/LSP.java" />
+    <entry file="file://$PROJECT_DIR$/JAVA DESIGN PATTERNS UDEMY.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="89" column="20" lean-forward="true" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+        <state relative-caret-position="23">
+          <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="37" />
           <folding>
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#1685#1686#0" expanded="true" />
-            <element signature="e#1745#1746#0" expanded="true" />
-            <element signature="e#1775#1776#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+            <element signature="e#1544#1545#0" expanded="true" />
+            <element signature="e#1595#1596#0" expanded="true" />
+            <element signature="e#1643#1644#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DIP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="87" column="33" lean-forward="true" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="33" />
+        <state relative-caret-position="253">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Patterns/Builder/Builder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="120" column="3" lean-forward="true" selection-start-line="120" selection-start-column="3" selection-end-line="120" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#1983#1984#0" expanded="true" />
+            <element signature="e#2029#2030#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -369,9 +503,80 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>javatuples-1.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SOLID_Principles</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

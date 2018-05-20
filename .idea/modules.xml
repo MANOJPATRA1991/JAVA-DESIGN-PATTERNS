@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JAVA DESIGN PATTERNS UDEMY.iml" filepath="$PROJECT_DIR$/JAVA DESIGN PATTERNS UDEMY.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SOLID_Principles/SOLID_Principles.iml" filepath="$PROJECT_DIR$/SOLID_Principles/SOLID_Principles.iml" />
     </modules>
   </component>
 </project>
