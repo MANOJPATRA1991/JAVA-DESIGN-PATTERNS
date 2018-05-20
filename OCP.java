@@ -93,6 +93,7 @@ class SizeSpecification implements Specification<Product> {
     }
 }
 
+// Create a combinator for multiple filter conditions
 class AndSpecification<T> implements Specification<T> {
     private Specification<T> first, second;
 
