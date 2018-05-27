@@ -1,0 +1,53 @@
+package Patterns.Factories;
+
+enum CoordinateSystem {
+    CARTESIAN, POLAR
+}
+
+class Point {
+    private double x, y;
+
+//    The constructor is made private in order to
+//    force the user to make use of the static methods
+    private Point(double x, double y) {
+        this.x = x;
+        this.y = y;
+    }
+
+//    NOT ALLOWED IN JAVA
+//    public Point(double rho, double theta) {
+//        x = rho * Math.cos(theta);
+//        y = rho * Math.sin(theta);
+//    }
+
+//    UGLY AND LESS USEFUL
+//    Cannot change the name of the constructor(or function)
+//    Solution is to make use of the FACTORY FUNCTION
+//    public Point(double a, double b, CoordinateSystem cs) {
+//        switch (cs) {
+//            case CARTESIAN:
+//                this.x = a;
+//                this.y = b;
+//                break;
+//            case POLAR:
+//                this.x = a * Math.cos(b);
+//                this.y = a * Math.sin(b);
+//                break;
+//        }
+//    }
+
+    public static Point newCartesianPoint(double x, double y) {
+        return new Point(x, y);
+    }
+
+    public static Point newPolarPoint(double rho, double theta) {
+        return new Point(rho*Math.cos(theta),
+                rho*Math.sin(theta));
+    }
+}
+
+class Demo {
+    public static void main(String[] args) {
+        Point point = Point.newPolarPoint(2, 3);
+    }
+}
