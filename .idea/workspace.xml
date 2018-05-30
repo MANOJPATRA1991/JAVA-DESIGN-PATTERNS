@@ -4,7 +4,14 @@
     <bookmark url="file://$PROJECT_DIR$/Patterns/Builder/HTML/HtmlFluentBuilder.java" line="16" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80e54970-77b0-4234-94b3-d42442cd3773" name="Default" comment="" />
+    <list default="true" id="80e54970-77b0-4234-94b3-d42442cd3773" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA DESIGN PATTERNS UDEMY.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JAVA DESIGN PATTERNS UDEMY.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patterns/Prototype/CopyConstructorsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/Prototype/CopyConstructorsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patterns/Prototype/CopyThroughSerializationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/Prototype/CopyThroughSerializationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA DESIGN PATTERNS UDEMY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA DESIGN PATTERNS UDEMY/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA DESIGN PATTERNS UDEMY/JAVA DESIGN PATTERNS UDEMY.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA DESIGN PATTERNS UDEMY/JAVA DESIGN PATTERNS UDEMY.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,24 +22,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CopyDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Patterns/Prototype/CopyDemo.java">
+      <file leaf-file-name="CopyThroughSerializationDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Patterns/Prototype/CopyThroughSerializationDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-630">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="336">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CopyConstructorsDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrototypeCodingExercise.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Patterns/Prototype/PrototypeCodingExercise.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="94">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="e#629#630#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="src.com.activemesa.creational.prototype.exercise.PrototypeExercise.java.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Patterns/Prototype/src.com.activemesa.creational.prototype.exercise.PrototypeExercise.java.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-156">
+              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CopyConstructorsDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Patterns/Prototype/CopyConstructorsDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="48" column="4" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
-              <folding>
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="252">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CopyDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Patterns/Prototype/CopyDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -81,14 +118,17 @@
         <option value="$PROJECT_DIR$/Patterns/Factories/Factory_Coding_Exercise.java" />
         <option value="$PROJECT_DIR$/Patterns/Builder/Builder_Coding_Exercise.java" />
         <option value="$PROJECT_DIR$/Patterns/Prototype/CopyDemo.java" />
+        <option value="$PROJECT_DIR$/Patterns/Prototype/CopyThroughSerializationDemo.java" />
         <option value="$PROJECT_DIR$/Patterns/Prototype/CopyConstructorsDemo.java" />
+        <option value="$PROJECT_DIR$/Patterns/Prototype/PrototypeCodingExercise.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -96,9 +136,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,6 +159,13 @@
             </path>
             <path>
               <item name="JAVA DESIGN PATTERNS UDEMY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA DESIGN PATTERNS UDEMY" type="462c0819:PsiDirectoryNode" />
+              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="Prototype" type="462c0819:PsiDirectoryNode" />
+              <item name="CopyDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="JAVA DESIGN PATTERNS UDEMY" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -131,7 +178,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/reflections-0.9.11.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/org-apache-commons-lang.jar/org-apache-commons-lang.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -156,7 +203,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CopyConstructorDemo">
+  <component name="RunManager" selected="Application.PrototypeExerciseDemo">
+    <configuration name="CopyBySerializationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Patterns.Prototype.CopyBySerializationDemo" />
+      <module name="JAVA DESIGN PATTERNS UDEMY" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Patterns.Prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="CopyConstructorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CopyConstructorDemo" />
       <module name="JAVA DESIGN PATTERNS UDEMY" />
@@ -173,17 +231,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="DemoAbstractFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Patterns.Factories.DemoAbstractFactory" />
-      <module name="JAVA DESIGN PATTERNS UDEMY" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Patterns.Factories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="DemoExerciseBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Patterns.Builder.DemoExerciseBuilder" />
       <module name="JAVA DESIGN PATTERNS UDEMY" />
@@ -195,13 +242,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PersonFactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Patterns.Factories.PersonFactoryDemo" />
+    <configuration name="PrototypeExerciseDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Patterns.Prototype.PrototypeExerciseDemo" />
       <module name="JAVA DESIGN PATTERNS UDEMY" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Patterns.Factories.*" />
+          <option name="PATTERN" value="Patterns.Prototype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,18 +296,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.DemoExerciseBuilder" />
-      <item itemvalue="Application.DemoAbstractFactory" />
-      <item itemvalue="Application.PersonFactoryDemo" />
       <item itemvalue="Application.Demo" />
       <item itemvalue="Application.CopyConstructorDemo" />
+      <item itemvalue="Application.CopyBySerializationDemo" />
+      <item itemvalue="Application.PrototypeExerciseDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrototypeExerciseDemo" />
+        <item itemvalue="Application.CopyBySerializationDemo" />
         <item itemvalue="Application.CopyConstructorDemo" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.DemoExerciseBuilder" />
-        <item itemvalue="Application.PersonFactoryDemo" />
-        <item itemvalue="Application.DemoAbstractFactory" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +325,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -289,12 +336,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3832853" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37891737" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2334294" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2334294" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5325936" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31879196" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -314,12 +361,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14529915" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37785235" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -329,7 +376,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32621083" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3275862" />
@@ -344,34 +391,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Patterns/Builder/FluentBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Patterns/Builder/StringBuilderExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Patterns/Builder/Builder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Patterns/Builder/Fluent_Builder_Interface_With_Recursive_Generics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Patterns/Builder/Builder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -421,11 +440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2185">
           <caret line="95" column="53" selection-start-line="95" selection-start-column="53" selection-end-line="95" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2259#2260#0" expanded="true" />
-            <element signature="e#2299#2300#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -440,11 +454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2185">
           <caret line="95" column="53" selection-start-line="95" selection-start-column="53" selection-end-line="95" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2259#2260#0" expanded="true" />
-            <element signature="e#2299#2300#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -459,11 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2259#2260#0" expanded="true" />
-            <element signature="e#2299#2300#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -488,11 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1978">
           <caret line="95" column="53" selection-start-line="95" selection-start-column="53" selection-end-line="95" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2259#2260#0" expanded="true" />
-            <element signature="e#2299#2300#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -582,10 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
           <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
-          <folding>
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -614,13 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="966">
           <caret line="46" column="48" lean-forward="true" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -642,11 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -682,26 +665,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="597">
           <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Patterns/Prototype/CopyDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Patterns/Prototype/CopyConstructorsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Patterns/Prototype/CopyThroughSerializationDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Patterns/Prototype/CopyDemo.java">
+    <entry file="file://$PROJECT_DIR$/Patterns/Prototype/src.com.activemesa.creational.prototype.exercise.Evaluate.java.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="315">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Patterns/Prototype/CopyConstructorsDemo.java">
+    <entry file="file://$PROJECT_DIR$/Patterns/Prototype/src.com.activemesa.creational.prototype.exercise.PrototypeExercise.java.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="48" column="4" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+        <state relative-caret-position="-156">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Patterns/Prototype/PrototypeCodingExercise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
           <folding>
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -783,7 +794,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>reflections-0.9.11</last-edited>
+          <last-edited>org-apache-commons-lang</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

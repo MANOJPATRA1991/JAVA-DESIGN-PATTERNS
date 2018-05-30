@@ -1,7 +1,12 @@
-class Address {
+package Patterns.Prototype;
+
+// DISADVANTAGE: We have to build a copy constructor
+// for every single type
+
+class PAddress {
     public String streetAddress, city, country;
 
-    public Address(String streetAddress, String city, String country) {
+    public PAddress(String streetAddress, String city, String country) {
         this.streetAddress = streetAddress;
         this.city = city;
         this.country = country;
@@ -9,8 +14,8 @@ class Address {
 
     //    COPY CONSTRUCTOR
 
-    //    Better than teh cloneable interface
-    public Address(Address other) {
+    //    Better than the cloneable interface
+    public PAddress(PAddress other) {
         this(other.streetAddress, other.city, other.country);
     }
 
@@ -26,16 +31,16 @@ class Address {
 
 class Employee {
     public String name;
-    public Address address;
+    public PAddress address;
 
-    public Employee(String name, Address address) {
+    public Employee(String name, PAddress address) {
         this.name = name;
         this.address = address;
     }
 
     public Employee(Employee other) {
         name = other.name;
-        address = new Address(other.address);
+        address = new PAddress(other.address);
     }
 
     @Override
@@ -50,7 +55,7 @@ class Employee {
 class CopyConstructorDemo {
     public static void main(String [] args) {
         Employee john = new Employee("John",
-                new Address("123 London Road", "London", "UK"));
+                new PAddress("123 London Road", "London", "UK"));
 
         // Employee chris = john;
         Employee chris = new Employee(john);
