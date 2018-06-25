@@ -5,10 +5,12 @@ import java.io.*;
 // One and only one instance is available for use
 class BasicSingleton {
 
+    // A private constructor
     private BasicSingleton() {
 
     }
 
+    // Only single instance is exposed
     private static final BasicSingleton INSTANCE = new BasicSingleton();
 
     public static BasicSingleton getInstance() {
@@ -25,6 +27,9 @@ class BasicSingleton {
         this.value = value;
     }
 
+    // SOLUTION TO SECOND PROBLEM:
+    // Whenever serialization happens, it has to happen
+    // in the context of this object
     protected Object readResolve() {
         return INSTANCE;
     }
