@@ -101,6 +101,10 @@ class HotDrinkMachine {
 
 
 class DemoAbstractFactory {
+    /**
+     * This is the main method which demonstrates HTMLBuilder example.
+     * @param args Unused
+     */
     public static void main(String[] args) throws Exception {
         HotDrinkMachine machine = new HotDrinkMachine();
         HotDrink drink = machine.makeDrink();

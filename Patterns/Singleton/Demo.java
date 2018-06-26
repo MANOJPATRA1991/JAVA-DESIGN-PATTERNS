@@ -2,8 +2,10 @@ package Patterns.Singleton;
 
 import java.io.*;
 
+// DEMONSTRATES PROBLEMS WITH SERIALIZATION AND SOLUTION
+
 // One and only one instance is available for use
-class BasicSingleton {
+class BasicSingleton implements Serializable {
 
     // A private constructor
     private BasicSingleton() {
@@ -30,6 +32,14 @@ class BasicSingleton {
     // SOLUTION TO SECOND PROBLEM:
     // Whenever serialization happens, it has to happen
     // in the context of this object
+
+    /**
+     * readResolve is used for replacing the object read from the stream.
+     * The only use I've ever seen for this is enforcing singletons;
+     * when an object is read, replace it with the singleton instance.
+     * This ensures that nobody can create another instance
+     * by serializing and de-serializing the singleton.
+     */
     protected Object readResolve() {
         return INSTANCE;
     }
@@ -37,13 +47,16 @@ class BasicSingleton {
 
 class Demo {
 //    Problems associated with this approach:
-//    1. Reflections
+//    1. Reflections : With Reflections API, we can get constructor
+//    and create more than one instances of the class
 //    2. Serialization : The JVM doesn't really care if it is a singleton
 //    and it's gonna create a new object on serialization
 
     static void saveToFile(BasicSingleton singleton, String filename) throws Exception {
         try(FileOutputStream fileOut = new FileOutputStream(filename);
             ObjectOutputStream out = new ObjectOutputStream(fileOut)) {
+
+            // SERIALIZING THE OBJECT
             out.writeObject(singleton);
         }
     }
@@ -51,6 +64,8 @@ class Demo {
     static BasicSingleton readFromFile(String filename) throws Exception {
         try (FileInputStream fileIn = new FileInputStream(filename);
              ObjectInputStream in = new ObjectInputStream(fileIn)) {
+
+            // DE-SERIALIZING THE OBJECT
             return (BasicSingleton) in.readObject();
         }
     }
@@ -71,3 +86,8 @@ class Demo {
         System.out.println(singleton1.getValue());
     }
 }
+
+// OUTPUT
+// true
+// 222
+// 222

@@ -2,6 +2,12 @@ package Patterns.Prototype;
 
 import java.util.Arrays;
 
+/**
+ * A class implements the Cloneable interface to indicate
+ * to the Object.clone() method that it is legal for that
+ * method to make a field-for-field copy of
+ * instances of that class
+ */
 class Address implements Cloneable {
     public String streetName;
     public int houseNumber;

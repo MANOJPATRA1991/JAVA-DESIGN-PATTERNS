@@ -25,6 +25,8 @@ class Foo implements Serializable {
 class CopyBySerializationDemo {
     public static void main(String[] args) {
         Foo foo = new Foo(42, "life");
+
+        // COPY BY VALUE : SERIALIZATION AND DESERIALIZATION
         byte[] s = SerializationUtils.serialize(foo);
         Foo foo2 = (Foo) SerializationUtils.deserialize(s);
 
