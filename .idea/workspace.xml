@@ -6,14 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="80e54970-77b0-4234-94b3-d42442cd3773" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/Factories/Abstract_Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/Factories/Abstract_Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/Factories/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/Factories/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/Factories/Factory_Methods_Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/Factories/Factory_Methods_Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/Prototype/CopyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/Prototype/CopyDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/Prototype/CopyThroughSerializationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/Prototype/CopyThroughSerializationDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/Singleton/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/Singleton/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA DESIGN PATTERNS UDEMY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA DESIGN PATTERNS UDEMY/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton.bin" beforeDir="false" afterPath="$PROJECT_DIR$/singleton.bin" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,15 +17,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StaticBlockSingletonDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Patterns/Singleton/StaticBlockSingletonDemo.java">
+      <file leaf-file-name="Enum_Based_Singleton.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Patterns/Singleton/Enum_Based_Singleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+            <state relative-caret-position="-1">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#590#591#0" expanded="true" />
-                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#156#157#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,8 +38,8 @@
       <file leaf-file-name="Demo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Patterns/Singleton/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="27" />
+            <state relative-caret-position="430">
+              <caret line="86" column="5" lean-forward="true" selection-start-line="54" selection-start-column="4" selection-end-line="86" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -99,7 +95,10 @@
         <option value="$PROJECT_DIR$/Patterns/Prototype/CopyDemo.java" />
         <option value="$PROJECT_DIR$/Patterns/Prototype/CopyThroughSerializationDemo.java" />
         <option value="$PROJECT_DIR$/Patterns/Singleton/Demo.java" />
+        <option value="$PROJECT_DIR$/Patterns/Singleton/Laziness_and_Thread_Safety.java" />
         <option value="$PROJECT_DIR$/Patterns/Singleton/StaticBlockSingletonDemo.java" />
+        <option value="$PROJECT_DIR$/Patterns/Singleton/Inner_Static_Singleton.java" />
+        <option value="$PROJECT_DIR$/Patterns/Singleton/Enum_Based_Singleton.java" />
       </list>
     </option>
   </component>
@@ -143,6 +142,20 @@
             </path>
             <path>
               <item name="JAVA DESIGN PATTERNS UDEMY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA DESIGN PATTERNS UDEMY" type="462c0819:PsiDirectoryNode" />
+              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="Singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="Laziness_and_Thread_Safety.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="JAVA DESIGN PATTERNS UDEMY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA DESIGN PATTERNS UDEMY" type="462c0819:PsiDirectoryNode" />
+              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="Singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="StaticBlockSingletonDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="JAVA DESIGN PATTERNS UDEMY" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -182,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo (1)">
+  <component name="RunManager" selected="Application.DemoEnumBasedSingleton">
     <configuration name="CopyBySerializationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Patterns.Prototype.CopyBySerializationDemo" />
       <module name="JAVA DESIGN PATTERNS UDEMY" />
@@ -227,13 +240,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="DemoAbstractFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Patterns.Factories.DemoAbstractFactory" />
+    <configuration name="DemoEnumBasedSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Patterns.Singleton.DemoEnumBasedSingleton" />
       <module name="JAVA DESIGN PATTERNS UDEMY" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Patterns.Factories.*" />
+          <option name="PATTERN" value="Patterns.Singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -280,19 +293,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.DemoAbstractFactory" />
       <item itemvalue="Application.Demo (3)" />
       <item itemvalue="Application.CopyConstructorDemo" />
       <item itemvalue="Application.CopyBySerializationDemo" />
       <item itemvalue="Application.Demo (1)" />
+      <item itemvalue="Application.DemoEnumBasedSingleton" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoEnumBasedSingleton" />
         <item itemvalue="Application.Demo (1)" />
         <item itemvalue="Application.CopyBySerializationDemo" />
         <item itemvalue="Application.CopyConstructorDemo" />
         <item itemvalue="Application.Demo (3)" />
-        <item itemvalue="Application.DemoAbstractFactory" />
       </list>
     </recent_temporary>
   </component>
@@ -330,12 +343,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5026846" side_tool="true" weight="0.03133903" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49731544" weight="0.30341882" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.49731544" visible="true" weight="0.30329043" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.23361823" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.37768242" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19261745" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19261745" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -390,27 +403,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DIP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="65" lean-forward="true" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OCP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2185">
-          <caret line="95" column="53" selection-start-line="95" selection-start-column="53" selection-end-line="95" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LSP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OCP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2185">
@@ -689,21 +681,55 @@
     <entry file="file://$PROJECT_DIR$/singleton.bin">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Patterns/Singleton/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Patterns/Singleton/StaticBlockSingletonDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        <state relative-caret-position="189">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#590#591#0" expanded="true" />
             <element signature="e#620#621#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Patterns/Singleton/Laziness_and_Thread_Safety.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Patterns/Singleton/Inner_Static_Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Patterns/Singleton/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="86" column="5" lean-forward="true" selection-start-line="54" selection-start-column="4" selection-end-line="86" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Patterns/Singleton/Enum_Based_Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
           </folding>
         </state>
       </provider>
