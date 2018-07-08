@@ -1,3 +1,5 @@
+package SOLID_Principles;
+
 /**
  * Liskov Substitution Principle(LSP)
  *
@@ -43,7 +45,7 @@ class Rectangle {
 
     @Override
     public String toString() {
-        return "Rectangle{" +
+        return "SOLID_Principles.Rectangle{" +
                 "width=" + width +
                 ", height=" + height +
                 "}";
@@ -108,7 +110,7 @@ class Demo3 {
         useIt(sq);
 
         /**
-         * RectangleFactory helps demonstrate the benefits
+         * SOLID_Principles.RectangleFactory helps demonstrate the benefits
          * of Liskov Substitution Principle(LSP)
          */
         useIt(RectangleFactory.newRectangle(2, 3));

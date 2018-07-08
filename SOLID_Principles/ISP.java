@@ -1,4 +1,4 @@
-import javax.print.Doc;
+package SOLID_Principles;
 
 /**
  *  Interface Segregation Principle(ISP)

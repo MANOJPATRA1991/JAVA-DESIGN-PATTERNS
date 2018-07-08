@@ -1,10 +1,12 @@
+package SOLID_Principles;
+
 import java.util.List;
 import java.util.stream.Stream;
 
 /**
  * Open Closed Principle(OCP)
  * +
- * Specification Design Pattern
+ * SOLID_Principles.Specification Design Pattern
  *
  * The concept of OCP is "OPEN FOR EXTENSION(i.e. inherit classes
  * or implement interfaces) BUT CLOSE FOR MODIFICATION (i.e., not

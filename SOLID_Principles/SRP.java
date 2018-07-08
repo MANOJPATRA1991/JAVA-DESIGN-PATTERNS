@@ -1,4 +1,4 @@
-/**
+package SOLID_Principles; /**
  * SINGLE RESPONSIBILITY PRINCIPLE(SRP):
  * A class should have only one single responsibility
  * There should be SEPARATION OF CONCERN
@@ -9,10 +9,8 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-import static java.lang.System.out;
-
 /**
- * The Journal class has a single responsibility of
+ * The SOLID_Principles.Journal class has a single responsibility of
  * adding and removing journals
  */
 class Journal {
@@ -51,7 +49,7 @@ class Journal {
 }
 
 /**
- * Persistence class has a single responsibility
+ * SOLID_Principles.Persistence class has a single responsibility
  * of saving journals to a file and loading journals
  * from a file
  */
@@ -66,9 +64,9 @@ class Persistence {
         }
     }
 
-//    public Journal load(String filename) {}
+//    public SOLID_Principles.Journal load(String filename) {}
 
-//    public Journal load(URL url) {}
+//    public SOLID_Principles.Journal load(URL url) {}
 }
 
 class Demo {

@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80e54970-77b0-4234-94b3-d42442cd3773" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/Singleton/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/Singleton/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA DESIGN PATTERNS UDEMY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA DESIGN PATTERNS UDEMY/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIP.java" beforeDir="false" afterPath="$PROJECT_DIR$/SOLID_Principles/DIP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ISP.java" beforeDir="false" afterPath="$PROJECT_DIR$/SOLID_Principles/ISP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/SOLID_Principles/LSP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/SOLID_Principles/OCP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patterns/Builder/src.com.activemesa.creational.builder.exercise.Evaluate.java.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/Builder/src.com.activemesa.creational.builder.exercise.Evaluate.java.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patterns/Factories/src.com.activemesa.creational.factories.exercise.Evaluate.java.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/Factories/src.com.activemesa.creational.factories.exercise.Evaluate.java.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patterns/Factories/src.com.activemesa.creational.factories.exercise.FactoryExercise.java.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/Factories/src.com.activemesa.creational.factories.exercise.FactoryExercise.java.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID_Principles/SOLID_Principles.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRP.java" beforeDir="false" afterPath="$PROJECT_DIR$/SOLID_Principles/SRP.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,25 +25,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Enum_Based_Singleton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Patterns/Singleton/Enum_Based_Singleton.java">
+      <file leaf-file-name="Monostate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Patterns/Singleton/Monostate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="966">
-              <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="54" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Monostate.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Patterns/Singleton/Monostate.java">
+      <file leaf-file-name="Testing_Issues.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Patterns/Singleton/Testing_Issues.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OCP.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SOLID_Principles/OCP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="98" column="6" selection-start-line="98" selection-start-column="6" selection-end-line="98" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LSP.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SOLID_Principles/LSP.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="23">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <caret line="90" column="6" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ISP.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SOLID_Principles/ISP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="87" column="6" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DIP.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SOLID_Principles/DIP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="80" column="6" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SRP.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SOLID_Principles/SRP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -99,6 +145,7 @@
         <option value="$PROJECT_DIR$/Patterns/Singleton/Laziness_and_Thread_Safety.java" />
         <option value="$PROJECT_DIR$/Patterns/Singleton/Enum_Based_Singleton.java" />
         <option value="$PROJECT_DIR$/Patterns/Singleton/Monostate.java" />
+        <option value="$PROJECT_DIR$/Patterns/Singleton/Testing_Issues.java" />
       </list>
     </option>
   </component>
@@ -174,20 +221,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoMonostate">
+  <component name="RunManager" selected="Application.Demo">
     <configuration name="CopyBySerializationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Patterns.Prototype.CopyBySerializationDemo" />
-      <module name="JAVA DESIGN PATTERNS UDEMY" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Patterns.Prototype.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="CopyConstructorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Patterns.Prototype.CopyConstructorDemo" />
       <module name="JAVA DESIGN PATTERNS UDEMY" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -204,6 +240,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Patterns.Singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SOLID_Principles.Demo" />
+      <module name="JAVA DESIGN PATTERNS UDEMY" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SOLID_Principles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,6 +296,16 @@
       </option>
       <patterns />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="SOLID_Principles" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -272,19 +329,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.CopyConstructorDemo" />
       <item itemvalue="Application.CopyBySerializationDemo" />
       <item itemvalue="Application.Demo (1)" />
       <item itemvalue="Application.DemoEnumBasedSingleton" />
       <item itemvalue="Application.DemoMonostate" />
+      <item itemvalue="Application.Demo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.DemoMonostate" />
         <item itemvalue="Application.DemoEnumBasedSingleton" />
         <item itemvalue="Application.Demo (1)" />
         <item itemvalue="Application.CopyBySerializationDemo" />
-        <item itemvalue="Application.CopyConstructorDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +368,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="782" height="831" extended-state="0" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -323,10 +380,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49731544" weight="0.30115274" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.21751413" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.21613833" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.43134534" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.43134534" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299712" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -338,7 +396,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32621083" />
     </layout>
     <layout-to-restore>
@@ -382,27 +439,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LSP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OCP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SRP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/function/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -413,20 +449,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console.snippet">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/OCP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1978">
-          <caret line="95" column="53" selection-start-line="95" selection-start-column="53" selection-end-line="95" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ISP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="89" column="20" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SOLID_Principles/src/DIP.java" />
     <entry file="file://$PROJECT_DIR$/SOLID_Principles/src/ISP.java" />
     <entry file="file://$PROJECT_DIR$/SOLID Principles/ISP.java" />
@@ -434,13 +456,6 @@
     <entry file="file://$PROJECT_DIR$/SOLID Principles/LSP.java" />
     <entry file="file://$PROJECT_DIR$/JAVA DESIGN PATTERNS UDEMY.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LSP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="37" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -521,13 +536,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/singleton.text" />
-    <entry file="file://$PROJECT_DIR$/DIP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="58" column="16" lean-forward="true" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Patterns/Builder/HTML/HtmlElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -640,6 +648,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-851">
           <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+          <folding>
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#1165#1166#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -654,6 +668,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -685,8 +702,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Patterns/Singleton/Monostate.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SOLID_Principles/SOLID_Principles.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Patterns/Singleton/Testing_Issues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SOLID_Principles/OCP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="98" column="6" selection-start-line="98" selection-start-column="6" selection-end-line="98" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SOLID_Principles/LSP.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <caret line="90" column="6" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SOLID_Principles/ISP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="87" column="6" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SOLID_Principles/DIP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="80" column="6" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SOLID_Principles/SRP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
