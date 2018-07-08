@@ -49,8 +49,8 @@ class Demo {
 //    Problems associated with this approach:
 //    1. Reflections : With Reflections API, we can get constructor
 //    and create more than one instances of the class
-//    2. Serialization : The JVM doesn't really care if it is a singleton
-//    and it's gonna create a new object on serialization
+//    2. Serialization : The JVM doesn't really care if the constructor is private
+//    and it's gonna create a new object on deserialization
 
     static void saveToFile(BasicSingleton singleton, String filename) throws Exception {
         try(FileOutputStream fileOut = new FileOutputStream(filename);
